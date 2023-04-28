@@ -1,0 +1,84 @@
+body
+{
+    background: fixed;
+    background-image: url(istockphot.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header
+{
+
+height: 100px;
+margin: 20px 20px;
+background-color: rgb(2, 188, 255) ; 
+border-radius: 10px;
+opacity: 0.8;
+
+}
+
+#pageLogo{
+float: left;
+}
+
+.right
+{
+float: right;
+padding-right: 10px;
+
+}
+
+header img
+{ 
+padding: 11px 11px;
+display: inline-block;
+}
+
+header nav ul li
+{
+padding-right: 10px;
+display: inline-block;
+font-size: 22px;
+text-transform:capitalize;
+text-align: center; 
+background-color: rgb(81, 105, 238);    
+padding: 11px 11px 11px 11px;
+border-radius: 9px;
+
+}
+header nav ul li a
+{
+
+float: right;
+padding-right: 10px;
+text-align: center;
+text-decoration: none ;
+padding: 0 44px 0 44px;
+color: white;
+margin: 0cm 3cm 0cm 3cm;
+border-radius: 9px;
+
+}
+
+a:hover{
+font-size: 22px;
+text-transform: capitalize;
+color: white ;
+display: inline-block; 
+font-size: large;
+text-align: center; 
+opacity: 0.7;   
+border-radius: 9px;
+
+}
+
+footer
+{
+background-color: rgb(81, 105, 238);
+margin: 20px 20px;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+color: white;
+margin-top: 240px;
+opacity: 0.8;
+}
